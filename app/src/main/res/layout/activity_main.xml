@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main">
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="380dp"
+
+        android:background="@drawable/selector_edit_text_background_pink"
+        android:backgroundTint="@color/white"
+
+        android:gravity="center"
+        android:hint="Enter your name"
+        android:textColor="#544e48"
+        android:textColorHint="#a89d92"
+        android:textSize="16sp"
+        android:fontFamily="@font/kaiwaan"
+        />
+
+    <ImageButton
+        android:id="@+id/btnFortune"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@drawable/circle_background"
+        android:src="@drawable/start"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:elevation="8dp"
+        android:translationZ="4dp"/>
+
+</LinearLayout>

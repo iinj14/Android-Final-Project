@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/select">
+
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="90dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/btnCard1"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/one"
+
+            android:text="1"
+            android:textColor="@android:color/transparent" />
+
+        <ImageButton
+            android:id="@+id/btnCard2"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/two"
+            android:text="2"
+            android:textColor="@android:color/transparent" />
+
+        <ImageButton
+            android:id="@+id/btnCard3"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:background="@drawable/three"
+            android:text="3"
+            android:textColor="@android:color/transparent" />
+
+
+    </LinearLayout>
+
+    <Space
+    android:layout_width="0dp"
+    android:layout_height="20dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageButton
+            android:id="@+id/btnCard4"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/four"
+            android:text="1"
+            android:textColor="@android:color/transparent" />
+
+        <ImageButton
+            android:id="@+id/btnCard5"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/five"
+            android:text="2"
+            android:textColor="@android:color/transparent" />
+
+        <ImageButton
+            android:id="@+id/btnCard6"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:background="@drawable/six"
+            android:text="3"
+            android:textColor="@android:color/transparent" />
+    </LinearLayout>
+
+</LinearLayout>
